@@ -1,0 +1,10 @@
+<br>
+<input type="text" placeholder="Enter task name" #task>
+<br><br>
+<button mat-flat-button color="accent" (click)="addTask(task.value)">Add Task</button>
+<br><br>
+Tasks are : 
+<ul *ngFor = "let item of task.name" >
+    <li>In</li>
+    <li>{{item.at}}</li>
+</ul>

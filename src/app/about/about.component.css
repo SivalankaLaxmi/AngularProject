@@ -1,0 +1,40 @@
+div {
+    display: table;
+    position: absolute;
+    color: #fff;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: inherit;
+    top: 25%;
+}
+.container {
+    display: block;
+    background: #222;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    max-width: 450px;
+    height: 70vh;
+    margin: auto;
+    position: relative;
+}
+
+#caption {
+    position: absolute;
+    right: 5px;
+    height: 321px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+}
+#pic {
+    right: 219px;
+    height: 300px;
+    position: relative;
+
+}

@@ -1,0 +1,16 @@
+<div>
+    <h1 style="font-style: italic;">{{name}}</h1>
+  
+    <div class="container" #imgbox style=" padding-left: 250px;height: 60vh;">
+        <div id="prevText" value="caption.value"></div>
+        <textarea name="caption" id="caption" placeholder="Add Caption: ">
+            
+        </textarea>
+    
+  
+    <input type="file" id="file" name="image" accept="image/*" 
+    (change)="loadFile($event)" style="display: none; ">
+    <label for="file"> Upload Picture </label><br><br>
+    <img [src]="url" id="pic"> <br/>
+</div>
+</div>
