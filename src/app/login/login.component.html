@@ -1,0 +1,15 @@
+<div>
+    <h1>Login Here</h1>
+<form #basicform="ngForm" (ngSubmit)="getdata(basicform.value)">
+    Enter Name : <input type="text" ngModel placeholder="Enter name" name="name">
+    <br><br>
+    Enter Email : <input type="text" ngModel placeholder="Enter email" name="email">
+    <br><br>
+    Enter Password : <input type="password" ngModel placeholder="Enter Password" name="password">
+    <br><br>
+    <button mat-flat-button color="accent">Login</button>
+</form>
+<br><br>
+<!-- <h2 *ngIf="displayToggle">Show Toggle</h2>
+<button mat-flat-button color="accent" (click)="togle(displayToggle)">Hide Toggle</button> -->
+</div>
