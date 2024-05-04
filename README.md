@@ -1,27 +1,17 @@
-# Proj2
+# AngularProject
+* This project will have one demo page which will having different options in the header like login, regitration, about.
+*  When we will click on Login link then we will be redirected to the Login Page.
+*  After login we will be landed into the About page where bydefault our login name will be displayed on the top of the ABout page.
+*  In About page we will have "upload picture" button where we can upload the picture
+*  and we also have "add caption" input field where we can add logged in user's details.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+![pic1](https://github.com/SivalankaLaxmi/AngularProject/assets/66054012/42483bb9-1338-47f7-b060-45a43f56d8ba)
 
-## Development server
+![login page](https://github.com/SivalankaLaxmi/AngularProject/assets/66054012/ea84244b-542e-4eb1-971d-502aeea643f0)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![about page](https://github.com/SivalankaLaxmi/AngularProject/assets/66054012/2aec9407-cad8-4bab-80a2-94107ea5f58b)
 
-## Code scaffolding
+![After uploading and adding caption](https://github.com/SivalankaLaxmi/AngularProject/assets/66054012/649a5b7e-a960-4a93-84f9-dbf42393274c)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
